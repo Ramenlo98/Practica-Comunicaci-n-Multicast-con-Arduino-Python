@@ -2,11 +2,11 @@ import socket
 import struct
 import serial, time
 
-MCAST_GRP = '224.0.0.2'
-MCAST_PORT = 5004
+MCAST_GRP = '224.1.1.1'
+MCAST_PORT = 5007
 IS_ALL_GROUPS = True
 
-arduino = serial.Serial('COM3', 9600)
+arduino = serial.Serial('COM4', 9600)
 
 time.sleep(2)
 
